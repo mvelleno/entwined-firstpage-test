@@ -1,0 +1,409 @@
+twisted.css
+
+html{
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #0a4531
+;  
+}
+
+/*----------------Base-----------------*/
+
+h2{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 30pt;
+
+
+    color: #F2F1D9;
+
+
+}
+
+
+h3{
+  font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: #F2F1D9;  
+
+
+}
+
+
+
+p{
+    font-family: "adobe-aldine", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:14pt;
+
+    line-height: 24px;
+
+    color: #F2F1D9; 
+
+    padding-left: 15%;
+    padding-right:15%;
+
+
+     text-indent: 20px; /* Adjust as needed */
+}
+
+
+
+/*----------------Base-----------------*/
+
+
+.top{
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns the text and image vertically */
+}
+
+
+.instructions{
+
+    font-size: 18pt;
+    font-style: italic;
+
+    line-height: 27px;
+
+    margin-top: 150px;
+    padding-bottom:0;
+}
+
+.top-nav{
+    background-color: #043524
+;
+
+    overflow: hidden;
+    padding: 16px;
+    padding: 12px;
+
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px -20px;
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    
+
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.anchor-points{
+    position: relative;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:5px;
+    margin-right: 7%;
+
+}
+
+.nav:hover{
+    color: #bc9e12;
+}
+
+
+.first-image-columns{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+
+
+.beauty{
+
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.rose
+{
+    width: 15%;
+    height: auto;
+    display: flex;
+
+    flex-direction: row;
+    position: relative;
+    top: 100px;
+    left: 50px;
+
+
+}
+
+.sisters{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.content{
+     width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.k{
+   color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+.keys-top{
+   position: relative;
+   
+}
+
+.keys-1:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-1:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-2:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-3:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-4:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-5:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-6:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-7:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-8:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-9:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-10:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-11:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-12:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+.keys-13:hover{
+    color: #bc9e12;
+    mix-blend-mode: multiply;
+    background-color: #edc405;
+}   
+
+.keys-bottom{
+    position: relative;
+    bottom: 75px;
+}
+
+.keys-1{
+
+    position: relative;
+    top: 30px;
+    rotate: 27deg;
+
+}
+
+.keys-2{
+
+    position: relative;
+    top: 45px;
+    rotate: -40deg;
+
+}
+
+.keys-3{
+
+    position: relative;
+    top: 10px;
+    rotate: 5deg;
+
+}
+
+.keys-4{
+
+    position: relative;
+    top: 50px;
+    rotate: 50deg;
+
+}
+
+.keys-5{
+
+    position: relative;
+    top: 30px;
+    rotate: -30deg;
+
+}
+
+.keys-6{
+
+    position: relative;
+    top: 15px;
+    rotate: 10deg;
+
+}
+
+.keys-7{
+
+    position: relative;
+    top: 20px;
+    rotate: -10deg;
+
+}
+
+.keys-8{
+
+    position: relative;
+    top: 45px;
+
+}
+
+.keys-9{
+
+    position: relative;
+    top: 17px;
+
+}
+
+.keys-10{
+
+    position: relative;
+    top: 12px;
+
+}
+
+.keys-11{
+
+    position: relative;
+    top: 45px;
+
+}
+
+.keys-12{
+
+    position: relative;
+    top: 10px;
+
+}
+
+.keys-13{
+
+    position: relative;
+    top: 40px;
+
+}
+
+.key-final{
+    width: 5%;
+    height: auto;
+    position: relative;
+    left: 570px;
+    top: 70px;
+}
+
+
+.the-end{
+
+    font-size: 30pt;
+    font-style: italic;
+
+    line-height: 27px;
+
+    margin-top: 150px;
+    padding-bottom:0;
+
+    position: relative;
+    bottom: 70px;
+
+}
+
+
+.first-image-columns2{
+
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.bottom{
+
+    margin-left: -5%;
+}
+
+
+
+
+
+
+
+
+
